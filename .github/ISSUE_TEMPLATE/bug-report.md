@@ -24,7 +24,7 @@ Your issue may already be reported! Please search in the [issue tracker](../) be
 2. Add container widget
 3. Set width = 123
 4. Click Run
-5. Observe that it doesn’t build
+5. Observe that project doesn’t build
 
 Code can be included in this section if it is relevant to reproducing the bug. 
 -->
