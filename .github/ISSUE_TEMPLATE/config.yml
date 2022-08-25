@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💜 FlutterFlow Community
+  - name: 💜  FlutterFlow Community
     url: https://community.flutterflow.io/
     about: Ask and answer questions, share suggestions, and discuss app ideas.
-  - name: 🤔 Support
+  - name: ❓ Support
     url: https://docs.flutterflow.io/miscellaneous/customer-support-policy
     about: The issue tracker is not for support questions. Please view our customer support policy for more details.
