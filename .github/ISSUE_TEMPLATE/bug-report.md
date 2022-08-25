@@ -19,7 +19,7 @@ Your issue may already be reported! Please search in the [issue tracker](../) be
 
 
 ## To Reproduce
-<!-- Please be detailed as possible here so we can help diagnose the issue. Issues will not be accepted if they are too vague. For example, "project fails to build" could be better reported as: 
+<!-- Please be detailed as possible here so we can help diagnose the issue. Issues cannot be accepted if they are too vague. For example, "project fails to build" could be better reported as: 
 1. Create new page
 2. Add container widget
 3. Set width = 123
