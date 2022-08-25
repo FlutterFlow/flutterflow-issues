@@ -3,4 +3,4 @@ FlutterFlow is a low/no-code builder for mobile and web apps that aims to help d
 
 For suggestions about features and enhancements, discussions, and questions, please visit [FlutterFlow Community](https://community.flutterflow.io/). 
 
-Thank you for helping make FlutterFlow more stable and improving the experience for all users! 💜
+Thank you for helping make FlutterFlow more stable and improving the FlutterFlow experience for all users! 💜
