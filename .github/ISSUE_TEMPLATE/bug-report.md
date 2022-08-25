@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Issue tracker is **ONLY** used for reporting bugs. New features and questions should be discussed on Community or submitted through our user feedback form.
+Issue tracker is **ONLY** used for reporting bugs. New feature suggestions and questions should be discussed on Community or submitted through our user feedback form.
 
 Your issue may already be reported! Please search in the [issue tracker](../) before creating one.
 
