@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: FlutterFlow Docs
+    url: https://docs.flutterflow.io/
+    about: The official documentation for FlutterFlow. 
   - name: FlutterFlow Community
     url: https://community.flutterflow.io/
     about: Ask and answer questions, share suggestions, and discuss app ideas.
