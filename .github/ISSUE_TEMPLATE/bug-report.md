@@ -14,15 +14,15 @@ Your issue may already be reported! Please search in the [issue tracker](../) be
 Please **thumbs up** this issue if you have also experienced it. You may also add more information if there is something relevant that was not mentioned. However, please refrain from comments that are not constructive, like "I have this problem too", etc.
 
 
-## Expected behavior
+## Expected behavior (required)
 <!-- A clear and concise description of what you expected to happen. -->
 
 
-## Current behavior
+## Current behavior (required)
 <!-- What happens instead of the expected behavior. -->
 
 
-## To Reproduce
+## To Reproduce (required)
 <!-- Please be detailed as possible here so we can help diagnose the issue. Issues cannot be accepted if they are too vague. For example, "project fails to build" could be better reported as: 
 1. Create new page
 2. Add container widget
@@ -40,11 +40,11 @@ Steps to reproduce the behavior:
 4.
 
 
-## Context
+## Context (required)
 <!-- How has this issue affected you? What are you trying to accomplish? -->
 
 
-## Screenshots
+## Screenshots / recordings
 <!-- If applicable, add screenshots to help explain your problem. -->
 
 
