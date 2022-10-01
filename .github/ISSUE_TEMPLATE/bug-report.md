@@ -47,9 +47,9 @@ Steps to reproduce the behavior:
 ## Screenshots / recordings
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-
 ## Your environment
 <!--- Include relevant details about the environment you experienced the bug in -->
+* **Bug report code: **
 * Version of FlutterFlow used: 
 * Platform (e.g. Web, MacOS Desktop): 
 * Browser name and version: 
