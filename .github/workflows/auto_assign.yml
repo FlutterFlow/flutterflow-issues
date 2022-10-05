@@ -1,0 +1,16 @@
+name: Automatic issue assignment
+
+on:
+    issues:
+        types: [opened]
+
+jobs:
+    auto-assign:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 'Auto-assign issue'
+              uses: pozil/auto-assign-issue@v1
+              with:
+                  assignees: hariprasadms,bulgariamitko,MizzUp,organicnz,Pepino-GR
+                  numOfAssignee: 1
+                  allowSelfAssign: false
