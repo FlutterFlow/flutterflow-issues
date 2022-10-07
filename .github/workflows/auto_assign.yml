@@ -8,9 +8,15 @@ jobs:
     auto-assign:
         runs-on: ubuntu-latest
         steps:
-            - name: 'Auto-assign issue'
+            - name: 'Auto-assign Triage'
               uses: pozil/auto-assign-issue@v1
               with:
                   assignees: hariprasadms,bulgariamitko,MizzUp,organicnz,Pepino-GR
+                  numOfAssignee: 1
+                  allowSelfAssign: false
+            - name: 'Auto-assign Eng'
+              uses: pozil/auto-assign-issue@v1
+              with:
+                  assignees: agreaves,agreaves,agreaves,aemelyanovff,asmengistu,avishal-cyber,katherineqian,shelpert,wenkaifan0720
                   numOfAssignee: 1
                   allowSelfAssign: false
