@@ -38,7 +38,9 @@ Steps to reproduce the behavior:
 3.
 4.
 
-## Bug Report Code
+### Bug Report Code
+<!-- This helps the team assess your issue. Create a code by going to the widget tree, right clicking on the affected widget, and selecting “Get Bug Report Code”. If the bug is not specific to a widget, selecting any widget will work. -->
+
 
 ## Context (required)
 <!-- How has this issue affected you? What are you trying to accomplish? -->
