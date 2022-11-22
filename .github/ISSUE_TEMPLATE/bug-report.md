@@ -21,7 +21,6 @@ Please **thumbs up** this issue if you have also experienced it. You may also ad
 ## Current behavior (required)
 <!-- What happens instead of the expected behavior. -->
 
-
 ## To Reproduce (required)
 <!-- Please be detailed as possible here so we can help diagnose the issue. Issues cannot be accepted if they are too vague. For example, "project fails to build" could be better reported as: 
 1. Create new page
@@ -39,6 +38,7 @@ Steps to reproduce the behavior:
 3.
 4.
 
+## Bug Report Code
 
 ## Context (required)
 <!-- How has this issue affected you? What are you trying to accomplish? -->
@@ -49,7 +49,6 @@ Steps to reproduce the behavior:
 
 ## Your environment
 <!--- Include relevant details about the environment you experienced the bug in -->
-* **Bug Report Code:**
 * Version of FlutterFlow used: 
 * Platform (e.g. Web, MacOS Desktop): 
 * Browser name and version: 
