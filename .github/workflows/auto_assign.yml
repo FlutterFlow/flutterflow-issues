@@ -11,12 +11,12 @@ jobs:
             - name: 'Auto-assign Triage'
               uses: pozil/auto-assign-issue@v1
               with:
-                  assignees: hariprasadms,bulgariamitko,MizzUp,organicnz,Pepino-GR
+                  assignees: hariprasadms,bulgariamitko,organicnz,Pepino-GR,yoheisoito
                   numOfAssignee: 1
                   allowSelfAssign: false
             - name: 'Auto-assign Eng'
               uses: pozil/auto-assign-issue@v1
               with:
-                  assignees: agreaves,agreaves,agreaves,aemelyanovff,asmengistu,avishal-cyber,katherineqian,shelpert,wenkaifan0720
+                  assignees: agreaves,agreaves,agreaves,aemelyanovff,katherineqian,shelpert,wenkaifan0720
                   numOfAssignee: 1
                   allowSelfAssign: false
