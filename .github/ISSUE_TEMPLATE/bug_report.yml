@@ -29,14 +29,15 @@ body:
   - type: textarea
     attributes:
       label: Steps To Reproduce
-      description: Please be detailed as possible here so we can help diagnose the issue, ideally starting as close as possible to a blank project/page/component etc.
-      Issues cannot be accepted if they are too vague. For example, "project fails to build" would not be reproducible.
+      description: |
+        Please be detailed as possible here so we can help diagnose the issue, ideally starting as close as possible to a blank project/page/component etc.
+        Issues cannot be accepted if they are too vague. For example, "project fails to build" would not be reproducible.
       placeholder: |
         1. Create new page
         2. Add container widget
         3. Set width = 123
         4. Click Run
-        5. Observe that project doesn’t build
+        5. Observe that project doesn't build
     validations:
       required: true
   - type: input
@@ -82,3 +83,6 @@ body:
       render: markdown
     validations:
       required: false
+   
+    
+    
