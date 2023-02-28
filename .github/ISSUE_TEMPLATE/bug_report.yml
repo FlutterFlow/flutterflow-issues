@@ -83,4 +83,4 @@ body:
           - Operating system and version affected: 
       render: markdown
     validations:
-      required: false
+      required: true
