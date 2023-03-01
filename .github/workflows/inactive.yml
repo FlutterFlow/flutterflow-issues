@@ -15,6 +15,8 @@ jobs:
           days-before-issue-stale: 7
           days-before-issue-close: -1
           stale-issue-label: "status: stale"
+          exempt-issue-labels: "status: confirmed"
+          labels-to-remove-when-unstale: "status: stale"
           stale-issue-message: "This issue is stale because it has been open for 7 days with no activity. If there are no further updates, a team member will close the issue."
           close-issue-message: "This issue was closed because it has been inactive for 24 days since being marked as stale. Please leave a comment tagging an assigned team member if you need this issue to be reopened, and we will be happy to investigate. Thank you!"
           days-before-pr-stale: -1
