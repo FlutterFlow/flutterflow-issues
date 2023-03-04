@@ -14,6 +14,8 @@ body:
       options:
         - label: I have searched the existing issues and confirm it has not been reported.
           required: true
+        - label: I give permission for members of the FlutterFlow team to access and test my project for the sole purpose of investigating this issue.
+          required: true
   - type: textarea
     attributes:
       label: Current Behavior
