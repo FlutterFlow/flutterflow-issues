@@ -27,12 +27,12 @@ body:
       label: Expected Behavior
       description: A concise description of what you expected to happen.
     validations:
-      required: true
+      required: true  
   - type: textarea
     attributes:
       label: Steps To Reproduce
       description: |
-        Please be detailed as possible here so we can help diagnose the issue, ideally starting as close as possible to a blank project/page/component etc.
+        Please be detailed as possible here so we can help diagnose the issue.
         Issues cannot be accepted if they are too vague. For example, "project fails to build" would not be reproducible.
       placeholder: |
         1. Create new page
@@ -42,6 +42,14 @@ body:
         5. Observe that project doesn't build
     validations:
       required: true
+  - type: checkboxes
+    id: reproducible-from-blank
+    attributes:
+      label: 
+      description: The steps to reproduce *must* start from a blank project, page, or component, ensuring that it is a reproducible bug within FlutterFlow. 
+      options:
+        - label: The steps to reproduce above start from a blank project.
+          required: true
   - type: input
     id: bugcode
     attributes:
