@@ -30,7 +30,7 @@ body:
       required: true  
   - type: textarea
     attributes:
-      label: Steps To Reproduce
+      label: Steps to Reproduce
       description: |
         Please be detailed as possible here so we can help diagnose the issue.
         Issues cannot be accepted if they are too vague. For example, "project fails to build" would not be reproducible.
@@ -45,7 +45,7 @@ body:
   - type: checkboxes
     id: reproducible-from-blank
     attributes:
-      label: 
+      label: Reproducible from Blank
       description: The steps to reproduce *must* start from a blank project, page, or component, ensuring that it is a reproducible bug within FlutterFlow. 
       options:
         - label: The steps to reproduce above start from a blank project.
@@ -80,7 +80,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Additional info
+      label: Additional Info
       description: |
         Any extra screenshots, recordings, links, references, or anything else that will give us more context about the issue you are encountering.
 
