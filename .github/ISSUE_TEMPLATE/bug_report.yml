@@ -53,7 +53,7 @@ body:
   - type: input
     id: bugcode
     attributes:
-      label: Bug Report Code
+      label: Bug Report Code (Required)
       description: |
         Generate by right clicking inside Widget Tree and selecting "Get Bug Report Code". 
         This helps the team assess your issue. Create a code by going to the widget tree, right clicking on the affected widget, and selecting “Get Bug Report Code”. 
