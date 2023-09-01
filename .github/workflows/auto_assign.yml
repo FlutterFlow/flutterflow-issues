@@ -17,6 +17,6 @@ jobs:
             - name: 'Auto-assign Eng'
               uses: pozil/auto-assign-issue@v1
               with:
-                  assignees: agreaves,Agreaves,aemelyanovff,wenkaifan0720,victoriahuang1,katherineqian,vishalagarwal2,sbis04
+                  assignees: agreaves,Agreaves,aemelyanovff,wenkaifan0720,victoriahuang1,katherineqian,sbis04
                   numOfAssignee: 1
                   allowSelfAssign: false
