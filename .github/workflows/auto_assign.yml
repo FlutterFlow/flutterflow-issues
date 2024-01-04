@@ -11,7 +11,7 @@ jobs:
             - name: 'Auto-assign Triage'
               uses: pozil/auto-assign-issue@v1
               with:
-                  assignees: hariprasadms,kevintonb,SameerShahzad99
+                  assignees: hariprasadms
                   numOfAssignee: 1
                   allowSelfAssign: false
             - name: 'Auto-assign Eng'
