@@ -14,9 +14,3 @@ jobs:
                   assignees: hariprasadms
                   numOfAssignee: 1
                   allowSelfAssign: false
-            - name: 'Auto-assign Eng'
-              uses: pozil/auto-assign-issue@v1
-              with:
-                  assignees: agreaves,aemelyanovff,wenkaifan0720,victoriahuang1,sbis04,takashiff
-                  numOfAssignee: 1
-                  allowSelfAssign: false
