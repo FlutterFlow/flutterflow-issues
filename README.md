@@ -9,4 +9,11 @@ For suggestions about features and enhancements, please add your feedback using 
 
 For discussions, and questions, please visit [FlutterFlow Community](https://community.flutterflow.io/). 
 
+
+## How do I know when my issue will be available in production?
+Our tracking system updates automatically, which means that when we merge a fix into the FlutterFlow codebase, the bug is closed. However, it can take up to two weeks to deploy a fix to production. Therefore, we ask that you give us two weeks after an issue was closed before re-opening it.
+
+
 Thank you for helping make FlutterFlow more stable and improving the FlutterFlow experience for all users! 💜
+
+
