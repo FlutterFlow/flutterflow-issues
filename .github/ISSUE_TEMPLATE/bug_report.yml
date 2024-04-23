@@ -121,7 +121,7 @@ body:
   - type: checkboxes
     id: dataloss2
     attributes:
-      label: Relative to the time the changes were made, data was lost within:
+      label: Relative to the time the changes were made, data was lost within
       options:
         - label: 1 minute
         - label: 1 hour
@@ -130,7 +130,7 @@ body:
   - type: checkboxes
     id: dataloss3
     attributes:
-      label: When following my steps to reproduce, data loss happens:
+      label: When following my steps to reproduce, data loss happens
       options:
         - label: ~100% of the time
         - label: ~50% of the time
