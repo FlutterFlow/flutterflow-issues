@@ -118,6 +118,8 @@ body:
         - label: The UI was running very slowly prior to data loss
         - label: A crash or other bug occurred prior to data loss
         - label: Data was not saved in a snapshot
+        - label: I was using flutterflow from multiple devices
+        - label: I was using flutterflow from multiple platforms (e.g. both web and MacOS Desktop app)
   - type: checkboxes
     id: dataloss2
     attributes:
