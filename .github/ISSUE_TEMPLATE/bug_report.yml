@@ -105,37 +105,4 @@ body:
       render: markdown
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "## Please fill out the following section for Data Loss issues"
-  - type: checkboxes
-    id: dataloss1
-    attributes:
-      label: General
-      options:
-        - label: I was collaborating with other users in the same project prior to data loss
-        - label: I navigated between different project views leading up to data loss
-        - label: The UI was running very slowly prior to data loss
-        - label: A crash or other bug occurred prior to data loss
-        - label: Data was not saved in a snapshot
-        - label: I was using flutterflow from multiple devices
-        - label: I was using flutterflow from multiple platforms (e.g. both web and MacOS Desktop app)
-  - type: checkboxes
-    id: dataloss2
-    attributes:
-      label: Relative to the time the changes were made, data was lost within
-      options:
-        - label: 1 minute
-        - label: 1 hour
-        - label: 1 day
-        - label: 1 week
-  - type: checkboxes
-    id: dataloss3
-    attributes:
-      label: When following my steps to reproduce, data loss happens
-      options:
-        - label: ~100% of the time
-        - label: ~50% of the time
-        - label: ~10% of the time
-        - label: ~1% of the time
-        - label: Very rarely or only encountered once
+
