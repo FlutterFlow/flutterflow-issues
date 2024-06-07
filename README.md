@@ -1,7 +1,7 @@
 # FlutterFlow Issues 
 FlutterFlow is a visual development enviornment for mobile and web apps. With FlutterFlow, developers can create beautiful, powerful, and clean applications faster than ever. This is an **issues-only repository** for tracking bug reports from the community. 🐛
 
-The goal of this tracker is to report bugs that can be reproduced from a blank project. For issues that are project-specific, [please reach out to our support team](https://docs.flutterflow.io/miscellaneous/customer-support-policy). 
+The goal of this tracker is to report bugs that our team can reproduce. Sometimes, there's a lot going on in projects - and we're not able to reproduce the issue outside of your project. For issues that are project-specific, we may redirect you to support. If you think that it's specific to your project configuration, [please reach out to our support team](https://docs.flutterflow.io/miscellaneous/customer-support-policy). 
 
 For suggestions about features and enhancements, please add your feedback using the feedback form in the product.
 
