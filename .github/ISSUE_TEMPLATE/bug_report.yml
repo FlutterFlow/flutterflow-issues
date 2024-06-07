@@ -47,7 +47,7 @@ body:
     id: reproducible-from-blank
     attributes:
       label: Reproducible from Blank
-      description: It's super helpful if the steps to reproduce start from a blank project, ensuring that it is a reproducible bug within FlutterFlow. 
+      description: It's super helpful if the steps to reproduce start from a blank project. 
       options:
         - label: The steps to reproduce above start from a blank project.
   - type: input
