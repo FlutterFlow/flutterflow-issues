@@ -9,9 +9,10 @@ body:
   - type: checkboxes
     id: terms
     attributes:
+      label: Can we access your project?
       # label: Has your issue been reported?
       # description: Please search to see if an issue already exists for the bug you encountered.
-      # options:
+      options:
       #   - label: I have searched the existing issues and confirm it has not been reported.
       #     required: true
         - label: I give permission for members of the FlutterFlow team to access and test my project for the sole purpose of investigating this issue.
