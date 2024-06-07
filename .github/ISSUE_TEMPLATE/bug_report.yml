@@ -5,15 +5,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting an issue! **The issue tracker is ONLY used for reporting bugs.** New feature suggestions and questions should be discussed on Community or submitted through our user feedback form.
+        Thanks for reporting an issue! **The issue tracker is ONLY used for reporting bugs.** New feature suggestions and questions should be submitted through our user feedback form in the product.
   - type: checkboxes
     id: terms
     attributes:
-      label: Has your issue been reported?
-      description: Please search to see if an issue already exists for the bug you encountered.
-      options:
-        - label: I have searched the existing issues and confirm it has not been reported.
-          required: true
+      # label: Has your issue been reported?
+      # description: Please search to see if an issue already exists for the bug you encountered.
+      # options:
+      #   - label: I have searched the existing issues and confirm it has not been reported.
+      #     required: true
         - label: I give permission for members of the FlutterFlow team to access and test my project for the sole purpose of investigating this issue.
           required: true
   - type: textarea
@@ -46,10 +46,9 @@ body:
     id: reproducible-from-blank
     attributes:
       label: Reproducible from Blank
-      description: The steps to reproduce *must* start from a blank project, ensuring that it is a reproducible bug within FlutterFlow. 
+      description: It's super helpful if the steps to reproduce start from a blank project, ensuring that it is a reproducible bug within FlutterFlow. 
       options:
         - label: The steps to reproduce above start from a blank project.
-          required: true
   - type: input
     id: bugcode
     attributes:
@@ -64,9 +63,9 @@ body:
   - type: textarea
     attributes:
       label: Context
-      description: How has this issue affected you? What are you trying to accomplish?
-    validations:
-      required: true
+      description: How has this issue affected you? What are you trying to accomplish? This helps us assess the priority!
+    # validations:
+    #   required: true
   - type: textarea
     attributes:
       label: Visual documentation
