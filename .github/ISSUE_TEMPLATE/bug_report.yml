@@ -52,6 +52,7 @@ body:
         - label: The steps to reproduce above start from a blank project.
   - type: input
     id: bugcode
+    label: Bug Report Code
     attributes:
       label: Bug Report Code (Required)
       description: |
