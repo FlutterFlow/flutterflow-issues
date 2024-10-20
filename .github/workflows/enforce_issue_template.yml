@@ -1,0 +1,53 @@
+name: Enforce Issue Template
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  enforce-template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if issue was created via the issue form
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueBody = context.payload.issue.body;
+
+
+            // Define required sections for the bug report template
+            const requiredSections = [
+              '### Current Behavior',
+              '### Expected Behavior',
+              '### Steps to Reproduce',
+              '### Bug Report Code (Required)',
+              '### Visual documentation',
+              '### Environment'
+            ];
+
+            // Check if all required sections are present
+            const missingSections = requiredSections.filter(section => !issueBody.includes(section));
+
+            if (missingSections.length > 0) {
+              // Post a comment explaining why the issue is being closed
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `Thank you for opening an issue. However, it appears that you did not use our issue form. Please resubmit your issue using the provided issue form so we have all the necessary information to assist you. This issue will now be closed.`,
+              });
+
+              // Close the issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                state: 'closed',
+              });
+            } else {
+              console.log('Issue contains all required sections.');
+            }
