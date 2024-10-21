@@ -2,7 +2,7 @@ name: Enforce Issue Template
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   issues: write
